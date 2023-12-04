@@ -3,15 +3,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package LAB12;
-import java.util.*;
 
-public class seven {
+/**
+ *
+ * @author HP
+ */
+public class twelve {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        System.out.println("Enter any string:");
-        String s1=in.nextLine();
-        String s2=in.nextLine();
+        String s="simple string";
+        byte[] arr=s.getBytes();
         
-        System.out.println(s1.contains(s2));
+        String n=new String(arr);
+        System.out.println(n);
     }
 }

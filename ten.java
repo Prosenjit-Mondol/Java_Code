@@ -8,16 +8,17 @@ package LAB12;
  *
  * @author HP
  */
-import java.util.*;
-public class six {
+public class ten {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        System.out.println("Enter any string:");
-        String s1=in.nextLine();
-        String s2=in.nextLine();
+        String str1 = "Python Exercises";
+        String str2 = "Python Exercise";
         
-        String s3=s1.concat(s2);
+        String s="se";
         
-        System.out.println(s3);
+        boolean en1=str1.endsWith(s);
+        boolean en2=str2.endsWith(s);
+        
+        System.out.println(en1);
+        System.out.println(en2);
     }
 }

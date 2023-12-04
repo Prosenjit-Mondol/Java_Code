@@ -1,19 +1,15 @@
-/**
- * Member
- */
-class Member {
-    String name,address;
-    int age,phone,salary;
-    public void printSalary(){
-        System.out.println("Salary of the member :"+salary);
-    }
-}
-class Employee extends Member{
-    String specialization;
-}
-class Manager extends Member{
-    String department;
-}
+
+package LAB12;
+import java.util.*;
 public class three {
-    
+    public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Enter any string:");
+        String s=in.nextLine();
+        int val1 = s.codePointBefore(1);
+        int val2 = s.codePointBefore(9);
+        
+        System.out.println("Character(unicode point) = "+val1);
+        System.out.println("Character(unicode point) = "+val2);
+    }
 }
