@@ -4,10 +4,26 @@
  */
 package Practices;
 
-/**
- *
- * @author HP
- */
+abstract  class parent{
+    abstract void message();
+}
+class firsts extends parent{
+    @Override
+    void message(){
+        System.out.println("This is first subclass");
+    }
+}
+class second extends parent{
+    @Override
+    void message(){
+        System.out.println("This is second subclass");
+    }
+}
 public class abone {
-    
+    public static void main(String[] args) {
+        firsts f=new firsts();
+        f.message();
+        second s=new second();
+        s.message();
+    }
 }
