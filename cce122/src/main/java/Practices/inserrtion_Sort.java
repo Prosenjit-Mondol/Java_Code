@@ -25,6 +25,10 @@ public class inserrtion_Sort {
                 j--;
             }
             arr[j+1]=key;
+            for (int k = 0; k <arr.length; k++) {
+            System.out.print(arr[k]+" ");
+        }
+            System.out.println("");
         }
         for (int i = 0; i <arr.length; i++) {
             System.out.print(arr[i]+" ");
